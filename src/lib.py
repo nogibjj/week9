@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import polars as pl
 
 def printMedian(df, target):
     print("median of" + target + ": " + str(df[target].median()))
