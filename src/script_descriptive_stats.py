@@ -41,7 +41,7 @@ import lib
 
 
 def main():
-    df = pl.read_csv("nba.csv")
+    df = pl.read_csv("data/nba.csv")
     lib.printDF(df)
     lib.printDescribe(df)
     lib.printMedian(df, "Age")
