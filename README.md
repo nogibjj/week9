@@ -7,19 +7,18 @@
 [![Test](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml)
 # Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject
 ## Requirements
-The project structure include the following files:
-Jupyter Notebook with:
- Cells that perform descriptive statistics using Polars.
-Tested by using nbval plugin for pytest
-Python Script performing the same descriptive statistics using Polars
-lib.py file that shares the common code between the script and notebook
-Makefile with the following:
-Run all tests (test notebook and script and lib)
-Formats code with Python black
-Lints code with Ruff
-Installs code via:  pip install -r requirements.txt
-test_script.py to test script
-test_lib.py to test library
+The project structure include the following files:<br>
+Jupyter Notebook with Cells that perform descriptive statistics using Polars.<br>
+Tested by using nbval plugin for pytest<br>
+Python Script performing the same descriptive statistics using Polars<br>
+lib.py file that shares the common code between the script and notebook<br>
+Makefile with：<br>
+Run all tests (test notebook and script and lib)<br>
+Formats code with Python black<br>
+Lints code with Ruff<br>
+Installs code via:  pip install -r requirements.txt<br>
+test_script.py to test script<br>
+test_lib.py to test library<br>
 GitHub Actions performs all four Makefile commands with badges for each one in the README.md
 
 ## Video Link
