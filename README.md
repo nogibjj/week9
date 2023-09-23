@@ -8,18 +8,18 @@
 # Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject
 ## Requirements
 The project structure include the following files:<br>
-Jupyter Notebook with Cells that perform descriptive statistics using Polars.<br>
-Tested by using nbval plugin for pytest<br>
-Python Script performing the same descriptive statistics using Polars<br>
-lib.py file that shares the common code between the script and notebook<br>
-Makefile with：<br>
-Run all tests (test notebook and script and lib)<br>
-Formats code with Python black<br>
-Lints code with Ruff<br>
-Installs code via:  pip install -r requirements.txt<br>
-test_script.py to test script<br>
-test_lib.py to test library<br>
-GitHub Actions performs all four Makefile commands with badges for each one in the README.md
+1. Jupyter Notebook with Cells that perform descriptive statistics using Polars.<br>
+2. Tested by using nbval plugin for pytest<br>
+3. Python Script performing the same descriptive statistics using Polars<br>
+4. lib.py file that shares the common code between the script and notebook<br>
+5. Makefile with：<br>
+    Run all tests (test notebook and script and lib)<br>
+    Formats code with Python black<br>
+    Lints code with Ruff<br>
+    Installs code via:  pip install -r requirements.txt<br>
+6. test_script.py to test script<br>
+7. est_lib.py to test library<br>
+8. GitHub Actions performs all four Makefile commands with badges for each one in the README.md
 
 ## Video Link
 
