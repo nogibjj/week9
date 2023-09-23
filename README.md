@@ -18,7 +18,7 @@ The project structure include the following files:<br>
     Lints code with Ruff<br>
     Installs code via:  pip install -r requirements.txt<br>
 6. test_script.py to test script<br>
-7. est_lib.py to test library<br>
+7. test_lib.py to test library<br>
 8. GitHub Actions performs all four Makefile commands with badges for each one in the README.md
 
 ## Video Link
