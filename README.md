@@ -5,7 +5,7 @@
 [![Lint](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/lint.yml)
 
 [![Test](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml)
-# Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject
+# week9
 ## Requirements
 The project structure include the following files:<br>
 1. Jupyter Notebook with Cells that perform descriptive statistics using Polars.<br>
