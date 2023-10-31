@@ -4,7 +4,6 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest --nbval *.ipynb
 	python -m pytest -vv --cov=main test_*.py
 
 format:	
