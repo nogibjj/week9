@@ -6,26 +6,10 @@
 
 [![Test](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Project1ContinuousIntegrationusingGitHubActionsofPythonDataScienceProject/actions/workflows/test.yml)
 # week9
-## Requirements
-The project structure include the following files:<br>
-1. Jupyter Notebook with Cells that perform descriptive statistics using Polars.<br>
-2. Tested by using nbval plugin for pytest<br>
-3. Python Script performing the same descriptive statistics using Polars<br>
-4. lib.py file that shares the common code between the script and notebook<br>
-5. Makefile with：<br>
-    Run all tests (test notebook and script and lib)<br>
-    Formats code with Python black<br>
-    Lints code with Ruff<br>
-    Installs code via:  pip install -r requirements.txt<br>
-6. test_script.py to test script<br>
-7. test_lib.py to test library<br>
-8. GitHub Actions performs all four Makefile commands with badges for each one in the README.md
 
-## Video Link
-https://youtu.be/sXBJL4FkM-g
 
 ## Description
-This project was generated from python template, which includes Makefile, requirements.txt, githubAction etc. It can automatically install, test, format, lint my change.
+I set up a cloud-hoseted Jupyter Notebook using Google Colab.
 In this project, I read nba.csv file using polar. This file contains many players with name, team, number, position, age, height, weight, college and salary. Then i calculate mean, min, max, standard deviation and median for this dataset. Then I print the result to terminal for data visualization. Finally, I used matplotlib to generate age distribution graph shwon in Age_distribution.png, Weight_distribution_polar.png, Salary_distribution_polar.png.
 
 ## Sample Output
